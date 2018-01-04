@@ -12,6 +12,7 @@
 
   def take_a_number(store, customer)
     store << customer
+    puts "Welcome, #{customer} You are number #{store.count} in line."
   end
 
 def now_serving(store)
