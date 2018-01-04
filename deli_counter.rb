@@ -17,4 +17,4 @@
       store.push(customer)
       store.each_with_index {|customer, position| puts "Welcome, #{customer}. You are number #{position+1} in line."}
     end
-
+  end
