@@ -13,3 +13,6 @@
   def take_a_number(store, customer)
 
   end
+
+def now_serving
+end
