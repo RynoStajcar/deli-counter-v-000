@@ -11,7 +11,7 @@
   end
 
   def take_a_number(store, customer)
-
+    store << customer
   end
 
 def now_serving(store)
