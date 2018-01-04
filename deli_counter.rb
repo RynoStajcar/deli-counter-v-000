@@ -18,6 +18,7 @@ def now_serving(store)
   if store.count < 1
     puts "There is nobody waiting to be served!"
   elsif store.count > 0
+    puts "currently serving #{store.first}"
     store.shift
   end
 end
